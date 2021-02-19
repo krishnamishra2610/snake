@@ -16,6 +16,7 @@ startGame.addEventListener('click', start)
 
 function start() {
     score = 0
+     interval = 650
     result.textContent = score
     squares[appleId].classList.remove('apple')
     clearInterval(int)

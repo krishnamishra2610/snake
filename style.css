@@ -1,0 +1,55 @@
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 10px black;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    border: white;
+}
+
+.apple {
+    background-image: url('images/appleimg.png');
+    background-size: 16px;
+    background-repeat: no-repeat;
+}
+
+.snake {
+    background-color: brown;
+}
+
+.head {
+    background-color: pink;
+}
+
+button {
+    background-color: transparent;
+}
+
+button:focus {
+    outline: none;
+}
+
+.controls {
+    margin-left: 110px;
+    margin-top: 50px;
+    width: 180px;
+    height: 110px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+
+.controls button {
+    border-radius: 20%;
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -6,8 +6,8 @@ let currentSnake = [2, 1, 0]
 let direction = 1
 let appleId = 0
 let width = 16
-let interval = 600
-let speed = 0.99
+let interval = 550
+let speed = 0.997
 let score = 0
 let int
 let startFlag = true

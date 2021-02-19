@@ -35,8 +35,8 @@ button:focus {
 }
 
 .controls {
-    margin-left:70px;
-    margin-top: 20px;
+    margin-left: 75;
+    margin-top: 10px;
     width: 250px;
     height: 200px;
     display: flex;
@@ -46,10 +46,9 @@ button:focus {
 
 .controls button {
     border-radius: 20%;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     margin: 5px;
-    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -6,7 +6,7 @@ let currentSnake = [2, 1, 0]
 let direction = 1
 let appleId = 0
 let width = 16
-let interval = 550
+let interval = 500
 let speed = 0.997
 let score = 0
 let int
@@ -16,7 +16,7 @@ startGame.addEventListener('click', start)
 
 function start() {
     score = 0
-     interval = 650
+     interval = 500
     result.textContent = score
     squares[appleId].classList.remove('apple')
     clearInterval(int)
@@ -90,7 +90,7 @@ function move() {
                 score++
                 result.textContent = score
                 clearInterval(int)
-                interval = interval * speed
+                interval =500
                 int = setInterval(move, interval);
             }
 
